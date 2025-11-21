@@ -20,24 +20,25 @@
 	--container-width: 1200px;
 	--container-padding: 15px;
 
-	--font-main: "Roboto Mono", "Firasans Book", "Montserrat", "Inter", sans-serif;
-	--font-accent: "SF Mono", "Fira Code", "Fira Mono", monospace;
+	--font-main: "Inter", system-ui, sans-serif;
+	--font-accent: "SFMono", "FiraMono", monospace;
 
-	--page-bg: #fff;
-	--text-color: #000;
-	--text-color-titles: #000;
-	--accent: #ac182c;
-	--link-color: #2578c8;
+	--page-bg: var(--navy);
+	--text-color: var(--slate);
+	--text-color-titles: var(--lightest-slate);
+	--text-color-description: var(--light-slate);
+
+	--accent: var(--green);
+	--link-color: var(--green);
 
 	--laptop-size: 1199px;
 	--tablet-size: 959px;
 	--mobile-size: 599px;
 }
 
-.dark {
-	--page-bg: var(--navy);
-	--text-color: var(--slate);
-	--text-color-titles: var(--lightest-slate);
-	--text-color-description: var(--light-slate);
-	--link-color: var(--green);
+.light {
+	--page-bg: white;
+	--text-color: #000;
+	--text-color-titles: #000;
+	--link-color: #2578c8;
 }
