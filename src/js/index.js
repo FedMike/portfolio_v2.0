@@ -39,3 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Инициализация при загрузке (на случай, если страница загружена не с верха)
     updateHeader();
 });
+
+// Подстановка актуального года в футере
+const yearEl = document.getElementById('year');
+yearEl.textContent = new Date().getFullYear();
