@@ -11,7 +11,7 @@
     text-decoration: none;
     transition: var(--transition);
     font-size: 14px;
-    margin-left: 15px;
+    align-self: baseline;
 
     &:hover,
     &:focus-visible {

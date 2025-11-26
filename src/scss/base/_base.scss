@@ -1,13 +1,15 @@
 html {
 	scroll-behavior: smooth;
 	background-color: var(--page-bg);
+	scrollbar-width: thin;
+	scrollbar-color: var(--dark-slate) var(--navy);
 }
 
 body {
 	background-color: var(--page-bg);
 	color: var(--slate);
 	font-family: var(--font-main);
-	text-wrap: balance;
+	//text-wrap: balance;
 }
 
 img {
