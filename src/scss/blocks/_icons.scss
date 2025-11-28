@@ -14,26 +14,14 @@
 .icon--github {
 	stroke: var(--light-slate);
 	transition: all 0.2s ease-in;
-
-	&:hover {
-		stroke: var(--green);
-	}
 }
 
 .icon--telegram {
-	fill: var(--light-slate);
+	stroke: var(--light-slate);
 	transition: all 0.2s ease-in;
-
-	&:hover {
-		fill: var(--green);
-	}
 }
 
 .icon--whatsapp {
 	fill: var(--light-slate);
 	transition: all 0.2s ease-in;
-
-	&:hover {
-		fill: var(--green);
-	}
 }

@@ -8,15 +8,15 @@
 @font-face {
 	font-family: FiraMono;
 	font-display: swap;
-	src: url("../fonts/FiraMono-Medium.woff2") format("woff2"), url("../fonts/FiraMono-Medium.woff") format("woff");
-	font-weight: 500;
+	src: url("../fonts/FiraMono-Regular.woff2") format("woff2"), url("../fonts/FiraMono-Regular.woff") format("woff");
+	font-weight: 400;
 	font-style: normal;
 }
 @font-face {
 	font-family: FiraMono;
 	font-display: swap;
-	src: url("../fonts/FiraMono-Regular.woff2") format("woff2"), url("../fonts/FiraMono-Regular.woff") format("woff");
-	font-weight: 400;
+	src: url("../fonts/FiraMono-Medium.woff2") format("woff2"), url("../fonts/FiraMono-Medium.woff") format("woff");
+	font-weight: 500;
 	font-style: normal;
 }
 @font-face {
@@ -43,14 +43,14 @@
 @font-face {
 	font-family: SFMono;
 	font-display: swap;
-	src: url("../fonts/SFMono-Regular.woff2") format("woff2"), url("../fonts/SFMono-Regular.woff") format("woff");
-	font-weight: 400;
+	src: url("../fonts/SFMono-Bold.woff2") format("woff2"), url("../fonts/SFMono-Bold.woff") format("woff");
+	font-weight: 700;
 	font-style: normal;
 }
 @font-face {
 	font-family: SFMono;
 	font-display: swap;
-	src: url("../fonts/SFMono-Bold.woff2") format("woff2"), url("../fonts/SFMono-Bold.woff") format("woff");
-	font-weight: 700;
+	src: url("../fonts/SFMono-Regular.woff2") format("woff2"), url("../fonts/SFMono-Regular.woff") format("woff");
+	font-weight: 400;
 	font-style: normal;
 }
