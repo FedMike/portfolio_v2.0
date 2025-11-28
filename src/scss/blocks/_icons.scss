@@ -11,26 +11,29 @@
 	height: 62px;
 }
 
-.icon--heart-line {
-	fill: rgb(241, 68, 131);
-}
-
-.icon--id-card-line {
-	fill: rgb(51, 51, 51);
-}
-.icon--search-line {
-	fill: rgb(28, 176, 80);
-}
-
-.icon--user-star {
-	fill: rgb(26, 134, 235);
-}
-
-.icon--user {
-	stroke: rgb(26, 134, 235);
+.icon--github {
+	stroke: var(--light-slate);
 	transition: all 0.2s ease-in;
 
 	&:hover {
-		stroke: rgb(17, 193, 90);
+		stroke: var(--green);
+	}
+}
+
+.icon--telegram {
+	fill: var(--light-slate);
+	transition: all 0.2s ease-in;
+
+	&:hover {
+		fill: var(--green);
+	}
+}
+
+.icon--whatsapp {
+	fill: var(--light-slate);
+	transition: all 0.2s ease-in;
+
+	&:hover {
+		fill: var(--green);
 	}
 }
