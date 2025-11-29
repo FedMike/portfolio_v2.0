@@ -1,0 +1,41 @@
+.right-side {
+    position: fixed;
+    bottom: 0px;
+    right: 40px;
+    left: auto;
+    z-index: 10;
+}
+
+.right-side__email {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+
+    a {
+        margin: 20px auto;
+        padding: 10px;
+        font-family: var(--font-accent);
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.1em;
+        -webkit-writing-mode: vertical-rl;
+        writing-mode: vertical-rl;
+        color: var(--light-slate);
+        transition: var(--transition);
+
+        &:hover {
+            transform: translateY(-3px);
+            color: var(--green);
+        }
+    }
+
+    &::after {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 90px;
+        margin: 0px auto;
+        background-color: var(--light-slate);
+    }
+}

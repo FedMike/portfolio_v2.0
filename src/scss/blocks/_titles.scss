@@ -6,10 +6,48 @@ h1 {
 	font-weight: 400;
 }
 
+h2 {
+	color: var(--lightest-slate);
+}
+
 h3 {
 	color: var(--slate);
 }
 
 .heading-big {
 	font-size: clamp(40px, 8vw, 80px);
+}
+
+.numbered-heading {
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	position: relative;
+	//width: 100%;
+	font-size: clamp(26px, 5vw, 32px);
+	white-space: nowrap;
+
+	&::before {
+		position: relative;
+		bottom: -3px;
+		height: 100%;
+		counter-increment: section 1;
+		content: "0" counter(section) ".";
+		margin-right: 10px;
+		color: var(--green);
+		font-family: var(--font-accent);
+		font-size: clamp(16px, 3vw, 20px);
+		font-weight: 400;
+	}
+
+	&:after {
+		content: "";
+		display: block;
+		position: relative;
+		bottom: -2px;
+		width: 300px;
+		height: 1px;
+		margin-left: 20px;
+		background-color: var(--lightest-navy);
+	}
 }
