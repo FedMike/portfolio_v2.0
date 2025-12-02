@@ -1,6 +1,9 @@
 //import mobileNav from './modules/mobile-nav.js';
 //mobileNav();
 
+import { animate } from './modules/cursor-follower.js';
+animate();
+
 // import isAvifWebp from 'avif-webp-checker';
 // isAvifWebp({ mode: 'webp' });
 

@@ -29,6 +29,14 @@
 		box-shadow: 0 10px 30px -10px var(--navy-shadow);
 	}
 
+	.logo a {
+		transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
+
+		&:hover {
+			opacity: 0.65;
+		}
+	}
+
 	.btn {
 		margin-left: 15px;
 	}
