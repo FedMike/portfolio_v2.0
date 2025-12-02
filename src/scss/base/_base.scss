@@ -10,6 +10,7 @@ body {
 	color: var(--slate);
 	font-family: var(--font-main);
 	//text-wrap: balance;
+	counter-reset: section;
 }
 
 img {
