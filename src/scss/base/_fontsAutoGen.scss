@@ -29,22 +29,15 @@
 @font-face {
 	font-family: Inter;
 	font-display: swap;
-	src: url("../fonts/Inter-Bold.woff2") format("woff2"), url("../fonts/Inter-Bold.woff") format("woff");
-	font-weight: 700;
-	font-style: normal;
-}
-@font-face {
-	font-family: Inter;
-	font-display: swap;
 	src: url("../fonts/Inter-SemiBold.woff2") format("woff2"), url("../fonts/Inter-SemiBold.woff") format("woff");
 	font-weight: 600;
 	font-style: normal;
 }
 @font-face {
-	font-family: SFMono;
+	font-family: Inter;
 	font-display: swap;
-	src: url("../fonts/SFMono-Regular.woff2") format("woff2"), url("../fonts/SFMono-Regular.woff") format("woff");
-	font-weight: 400;
+	src: url("../fonts/Inter-Bold.woff2") format("woff2"), url("../fonts/Inter-Bold.woff") format("woff");
+	font-weight: 700;
 	font-style: normal;
 }
 @font-face {
@@ -52,5 +45,12 @@
 	font-display: swap;
 	src: url("../fonts/SFMono-Bold.woff2") format("woff2"), url("../fonts/SFMono-Bold.woff") format("woff");
 	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: SFMono;
+	font-display: swap;
+	src: url("../fonts/SFMono-Regular.woff2") format("woff2"), url("../fonts/SFMono-Regular.woff") format("woff");
+	font-weight: 400;
 	font-style: normal;
 }

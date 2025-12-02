@@ -5,10 +5,30 @@
 	-webkit-box-align: center;
 	align-items: center;
 	flex-direction: column;
+	gap: 20px;
 	height: auto;
 	min-height: 70px;
 	padding: 16px;
+	padding-bottom: 30px;
 	text-align: center;
 	font-family: var(--font-accent);
 	font-size: 12px;
+
+	.footer__socials {
+		display: none;
+		gap: 10px;
+
+		@include mobile {
+			display: flex;
+		}
+	}
+
+	.footer__socials-item {
+		padding: 10px;
+
+		svg {
+			width: 24px;
+			height: 24px;
+		}
+	}
 }

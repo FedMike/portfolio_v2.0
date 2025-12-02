@@ -13,6 +13,14 @@
 
 	max-width: var(--container-width);
 	width: 100%;
+
+	@include mobile {
+		padding: 0px 50px;
+	}
+
+	@include mobileXs {
+		padding: 0px 25px;
+	}
 }
 
 .container-full {

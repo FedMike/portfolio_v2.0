@@ -1,5 +1,5 @@
-//import mobileNav from './modules/mobile-nav.js';
-//mobileNav();
+import mobileNav from './modules/mobile-nav.js';
+mobileNav();
 
 import { animate } from './modules/cursor-follower.js';
 animate();

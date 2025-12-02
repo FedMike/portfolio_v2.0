@@ -38,4 +38,8 @@
         margin: 0px auto;
         background-color: var(--light-slate);
     }
+
+    @include mobile {
+        display: none;
+    }
 }

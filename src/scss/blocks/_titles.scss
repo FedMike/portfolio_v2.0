@@ -15,7 +15,7 @@ h3 {
 }
 
 .heading-big {
-	font-size: clamp(40px, 8vw, 80px);
+	font-size: clamp(40px, 7vw, 80px);
 }
 
 .numbered-heading {
@@ -49,5 +49,9 @@ h3 {
 		height: 1px;
 		margin-left: 20px;
 		background-color: var(--lightest-navy);
+
+		@include mobile {
+			width: 100%;
+		}
 	}
 }

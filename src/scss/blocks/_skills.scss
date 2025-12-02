@@ -7,8 +7,15 @@
         flex-direction: column;
         gap: 50px;
         max-width: 900px;
-        padding-left: 100px;
-        padding-right: 100px;
+        padding: 0px 100px;
+
+        @include mobile {
+            padding: 0px 50px;
+        }
+
+        @include mobileXs {
+            padding: 0px 25px;
+        }
     }
 
     .skills__list {
@@ -22,6 +29,12 @@
         flex-direction: column;
         align-items: center;
         gap: 12px;
+
+        &:hover {
+            .skills__item-title {
+                color: var(--green);
+            }
+        }
     }
 
     .skills__item img {
@@ -34,5 +47,6 @@
 
     .skills__item-title {
         font-family: var(--font-accent);
+        transition: var(--transition);
     }
 }

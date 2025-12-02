@@ -16,6 +16,7 @@
 	pointer-events: auto !important;
 	user-select: auto !important;
 	height: 100px;
+	z-index: 9995;
 
 	&.hidden {
 		height: 70px;
@@ -43,15 +44,13 @@
 }
 
 .header__nav {
-	@include tablet {
-		display: none;
-	}
-}
-
-.header__nav {
 	display: flex;
 	align-items: center;
 	gap: 16px;
+
+	@include mobile {
+		display: none;
+	}
 }
 
 .nav__list {
