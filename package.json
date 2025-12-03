@@ -43,6 +43,7 @@
 		"last 5 versions"
 	],
 	"dependencies": {
+		"aos": "^2.3.4",
 		"avif-webp-checker": "^1.0.0",
 		"swiper": "^11.0.6"
 	}

@@ -168,6 +168,18 @@ gulp.task('js:dev', function () {
 		.pipe(gulp.dest('./build/js/'));
 });
 
+gulp.task('aosjs:dev', function () {
+	return gulp
+		.src('./node_modules/aos/dist/aos.js')
+		.pipe(gulp.dest('./build/js'));
+});
+
+gulp.task('aoscss:dev', function () {
+	return gulp
+		.src('./node_modules/aos/dist/aos.css')
+		.pipe(gulp.dest('./build/css'));
+});
+
 const serverOptions = {
 	livereload: true,
 	open: true,

@@ -10,6 +10,7 @@
 
 	<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
 	<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/favicon.svg">
+	<link rel="stylesheet" href="./css/aos.css">
 </head>
 
 <body>
@@ -24,7 +25,12 @@
 	</main>
 	@@include('blocks/cursor-follower.html')
 	@@include('blocks/footer.html')
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="./js/index.bundle.js"></script>
+	<script src="/js/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
 </body>
 
 </html>

@@ -201,6 +201,18 @@ gulp.task('files:docs', function () {
 		.pipe(gulp.dest('./docs/files/'));
 });
 
+gulp.task('aosjs:docs', function () {
+	return gulp
+		.src('./node_modules/aos/dist/aos.js')
+		.pipe(gulp.dest('./docs/js'));
+});
+
+gulp.task('aoscss:docs', function () {
+	return gulp
+		.src('./node_modules/aos/dist/aos.css')
+		.pipe(gulp.dest('./docs/css'));
+});
+
 gulp.task('js:docs', function () {
 	return gulp
 		.src('./src/js/*.js')
